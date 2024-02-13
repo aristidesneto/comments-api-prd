@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: comments-api
-          image: us-central1-docker.pkg.dev/lab-terraform-414113/comments-api/main:abc2abc
+          image: us-central1-docker.pkg.dev/lab-terraform-414113/comments-api/main:7b0f2bb
           resources:
             requests:
               cpu: 100m
