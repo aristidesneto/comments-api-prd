@@ -18,6 +18,7 @@ spec:
       containers:
         - name: comments-api
           image: us-central1-docker.pkg.dev/lab-terraform-414113/comments-api/main:ecbb3d9
+          imagePullPolicy: Always
           resources:
             requests:
               cpu: 100m
@@ -25,4 +26,5 @@ spec:
             limits:
               cpu: 200m
               memory: 200Mi
-      restartPolicy: Always
+      imagePullSecrets:
+        - name: container-registry
