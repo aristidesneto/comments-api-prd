@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: comments-api
-          image: us-central1-docker.pkg.dev/lab-terraform-414113/comments-api/main:6cb40d6
+          image: us-central1-docker.pkg.dev/lab-terraform-414113/comments-api/main:5571c94
           imagePullPolicy: Always
           resources:
             requests:
