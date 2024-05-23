@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: comments-api
-          image: us-docker.pkg.dev/lab-globo-424210/comments-api/main:de92b91
+          image: us-central1-docker.pkg.dev/lab-globo-424210/comments-api/main:de92b91
           imagePullPolicy: Always
           resources:
             requests:
